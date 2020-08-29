@@ -9,9 +9,9 @@ This app  allows  managers to create software engineering teams composed of muli
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#Credits)
-* [Tests](#tests)
+* [Walkthrough](#Walkthrough)
 * [License](#license)
-* [Questions](#questions)
+* [Links](#links)
 
 ## Installation
 
@@ -25,17 +25,17 @@ Follow the promps and answers all the questions, then a list of your newly added
 
 Teacher Assistants, w3schools.com, css-tricks, Visual Code; and most importantly, positive vibes and motivation from friends.
 
-## Tests
+## Walkthrough
 
-None.
+
+<img src="./assets/images/employee_summary_walkthrough.png" width="50%">
 
 ## License
 
 This application is covered under the MIT license, please see [license.txt](license.txt) for more details.
 
-## Questions
+## Links
 
-If you have any questions or wish to see my github profile:
+* Video Walkthrough URL: https://drive.google.com/file/d/1tGusTEEaZXqMXxtL550I8NOJinMBXBN8/view?usp=sharing
 
-* Gihub Profile: [Waltrevino](https://gist.github.com/Waltrevino)
-* Email Address: [walterzapataechols@yahoo.com](walterzapataechols@yahoo.com)
+* Github Repo URL: https://github.com/Waltrevino/employee_summary
