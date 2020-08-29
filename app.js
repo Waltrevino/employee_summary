@@ -62,7 +62,6 @@ function gatherUserInputs() {
                     // createIntern(name, id, email, school);
                     const intern = new Intern(name, id, email, school);
                     team.push(intern);
-                    console.log(name + " " + id + " " + email + " " + school);
                     addAnotherTeamMember();
                     }
                 )
@@ -73,22 +72,17 @@ function gatherUserInputs() {
                     message: "What is the Manager's office number?",
                     name: "officeNumber"
                 }).then(function ({ officeNumber }) {
-                    console.log(name + " " + id + " " + email + " " + officeNumber);
                     // createManager(name, id, email, officeNumber);
                     const manager = new Manager(name, id, email, officeNumber);
-                    team.push(manager);
-
-                   
+                    team.push(manager);                  
                     addAnotherTeamMember();
                     }
                 )
                 break;
         }
-
     })
 
 }
-
 
 function addAnotherTeamMember(){
     inquirer.prompt({
@@ -96,13 +90,13 @@ function addAnotherTeamMember(){
          message: "Do you wish to add another team member?",
          name: "addAnotherTeamMember"
     }).then(function({addAnotherTeamMember}){
-        console.log("Test1", team);
+  
         if(addAnotherTeamMember) {
-            console.log("Test2", team);
+          
             gatherUserInputs();
         } else {
             printHTML();
-            console.log("Test3", team);
+     
         }
     }).catch(error => {
         console.log("There was a problem adding another team member", error);
